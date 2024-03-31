@@ -1,0 +1,17 @@
+.navbar{
+    background-color: #FFF !important;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: fixed;
+    font-family: "Poppins", sans-serif;
+    z-index: 1000;
+}
+
+.navbar-left {
+    margin-right: auto;
+  }
+  
+  .navbar-right {
+    margin-left: auto;
+  }
+  

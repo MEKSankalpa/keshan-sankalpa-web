@@ -1,0 +1,44 @@
+.technology-item {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+  }
+ 
+ .technology-info {
+    flex: 1;
+   
+  }
+  
+  .technology-info p {
+    margin: 0;
+  }
+  
+  .skill-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #f0f0f0; /* Background color of skill bar */
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .skill-level {
+    height: 100%;
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%); /* Color of skill bar */
+    border-radius: 5px;
+  }
+  
+  /* Additional styles for better appearance */
+  .technology-item {
+    max-width: 800px; /* Limit width of technology item */
+  }
+  
+  .skill-bar {
+    position: relative;
+  }
+  
+  .skill-level {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }

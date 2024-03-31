@@ -1,0 +1,53 @@
+
+  <section class="aboutme-container" >
+    <app-title [title]="'About Me'"></app-title>
+    <mat-tab-group mat-stretch-tabs class="example-stretched-tabs mat-elevation-z4 aboutme-tab">
+        <mat-tab label="Personal Details">
+          <!-- Personal details content goes here -->
+          <section class="personal-details">
+            <div class="personal-details-right">
+                <img src="https://via.placeholder.com/400x300" alt="John Doe Photo">
+              </div>
+            <div class="personal-details-left">
+              
+              <ul>
+                <li><i class="fas fa-user"></i> <span>Full Name:</span> Mathangasin Ediriweera Keshan Sankalpa</li>
+                <li><i class="fas fa-calendar-alt"></i> <span>Age:</span>  27</li>
+                <li><i class="fas fa-map-marker-alt"></i><span>Address:</span> Colombo,Sri Lanka. </li>
+                <li><i class="fas fa-phone"></i><span>Mobile:</span>  +94759614476</li>
+              </ul>
+              <button class="cv-button">Download CV</button>
+            </div>
+           
+          </section>
+          
+        </mat-tab>
+        <mat-tab label="Experience">
+          <!-- Experience content goes here -->
+          <section class="work-experience">
+            <div class="timeline">
+              <app-timeline *ngFor="let item of experiences" [item]="item"></app-timeline>
+              <!-- Add more timeline items as needed -->
+            </div>
+          </section>
+          
+          
+          
+        </mat-tab>
+        <mat-tab label="Technology Expertness">
+          <!-- Familiar technologies content goes here -->
+          <section class="technologies">
+          
+            
+               <app-grid *ngFor="let tech of technologies" [tech]="tech"></app-grid>
+           
+            <!-- Repeat for other technologies -->
+          </section>
+        </mat-tab>
+        <mat-tab label="Education">
+         <div class="timeline">
+            <app-timeline *ngFor="let item of experiences" [item]="item"></app-timeline>
+        </div>
+        </mat-tab>
+      </mat-tab-group>
+  </section>

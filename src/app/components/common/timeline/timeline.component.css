@@ -1,0 +1,33 @@
+.timeline-item {
+    position: relative;
+    padding: 20px 40px;
+    font-family: "Poppins", sans-serif !important;
+  }
+  
+  .timeline-item:before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%); /* Adjust color as needed */
+  }
+  
+  .timeline-content {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .timeline-content h3 {
+    margin-top: 0;
+    color: #8490ff;
+  }
+  
+  .timeline-content p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #777777;
+  }

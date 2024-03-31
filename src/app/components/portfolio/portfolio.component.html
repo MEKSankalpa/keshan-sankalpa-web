@@ -1,0 +1,74 @@
+<section class="portfolio-container" >
+    <app-title [title]="'Portfolio'"></app-title>
+        
+        <mat-tab-group class="portfolio-tabs">
+          <mat-tab label="Web">
+            <div class="project-cards">
+              <!-- Display mobile projects -->
+              <div *ngFor="let project of mobileProjects" class="project-card">
+                <mat-card>
+                  <mat-card-header>
+                    <div mat-card-avatar class="project-avatar"></div>
+                    <mat-card-title>{{ project.title }}</mat-card-title>
+                    <mat-card-subtitle>{{ project.category }}</mat-card-subtitle>
+                  </mat-card-header>
+                  <img mat-card-image src="{{ project.image }}" alt="{{ project.title }}">
+                  <mat-card-content>
+                    <p>{{ project.description }}</p>
+                  </mat-card-content>
+                  <mat-card-actions>
+                    <button mat-button>Read More</button>
+                  </mat-card-actions>
+                </mat-card>
+              </div>
+            </div>
+          </mat-tab>
+          <!-- Add tabs for Web and UI/UX -->
+          <mat-tab label="Mobile">
+            <div class="project-cards">
+              <!-- Display mobile projects -->
+              <div *ngFor="let project of mobileProjects" class="project-card">
+                <mat-card>
+                  <mat-card-header>
+                    <div mat-card-avatar class="project-avatar"></div>
+                    <mat-card-title>{{ project.title }}</mat-card-title>
+                    <mat-card-subtitle>{{ project.category }}</mat-card-subtitle>
+                  </mat-card-header>
+                  <img mat-card-image src="{{ project.image }}" alt="{{ project.title }}">
+                  <mat-card-content>
+                    <p>{{ project.description }}</p>
+                  </mat-card-content>
+                  <mat-card-actions>
+                    <button mat-button>Read More</button>
+                  </mat-card-actions>
+                </mat-card>
+              </div>
+            </div>
+          </mat-tab>
+
+          <mat-tab label="UI/UX">
+            <div class="project-cards">
+              <!-- Display mobile projects -->
+              <div *ngFor="let project of mobileProjects" class="project-card">
+                <mat-card>
+                  <mat-card-header>
+                    <div mat-card-avatar class="project-avatar"></div>
+                    <mat-card-title>{{ project.title }}</mat-card-title>
+                    <mat-card-subtitle>{{ project.category }}</mat-card-subtitle>
+                  </mat-card-header>
+                  <img mat-card-image src="{{ project.image }}" alt="{{ project.title }}">
+                  <mat-card-content>
+                    <p>{{ project.description }}</p>
+                  </mat-card-content>
+                  <mat-card-actions>
+                    <button mat-button>Read More</button>
+                  </mat-card-actions>
+                </mat-card>
+              </div>
+            </div>
+          </mat-tab>
+        </mat-tab-group>
+      
+      
+    
+  </section>

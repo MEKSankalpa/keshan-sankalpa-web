@@ -1,0 +1,15 @@
+.title {
+    text-align: center !important;
+    color: #222222;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.title h1{
+    font-size: 36px;
+}
+
+.title p{
+font-size: 14px;
+margin-bottom: 2%;
+}

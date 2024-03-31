@@ -1,0 +1,47 @@
+.portfolio-container{
+    height: auto; /* Adjust the height as needed */
+    background-color: #f9f9ff !important;
+    padding-block: 1%;
+}
+
+.portfolio-container {
+    padding: 20px;
+  }
+  
+  .project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+  }
+  
+  .project-card {
+    margin: 10px;
+    width: 300px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .project-card p{
+    color: #777777;
+    font-size: 14px;
+    line-height: 1.625em;
+    text-align: justify;
+  }
+  
+  .project-avatar {
+    background-color: #ccc; /* Color for project avatar */
+  }
+
+  .portfolio-tabs{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .project-card button{
+    color: #8490ff;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px !important;
+    cursor: pointer;
+  }
