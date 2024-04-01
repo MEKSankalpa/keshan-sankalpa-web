@@ -15,3 +15,12 @@
     margin-left: auto;
   }
   
+  @media (max-width: 768px) {
+    .navbar{
+      font-size: small;
+    }
+ .navbar span{
+      font-size: small;
+    }
+   
+  }

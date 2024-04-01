@@ -11,12 +11,6 @@
   margin-right: auto;
   height: 80%;
   }
-
-
-
-  .work-experience {
-    padding: 20px;
-  }
   
   .timeline {
     position: relative;
@@ -92,6 +86,10 @@
  
   /* Responsive Styles */
 @media (max-width: 1000px) {
+  .aboutme-container{
+    height: auto;
+    padding-bottom: 2%;
+  }
     .personal-details {
       flex-direction: column;
     }
